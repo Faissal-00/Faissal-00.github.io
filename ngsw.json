@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747610065925,
+  "timestamp": 1779589962734,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -18,7 +18,7 @@
         "/index.html",
         "/main-RBPIJPWQ.js",
         "/polyfills-EONH2QZO.js",
-        "/scripts-I7U3HYFQ.js",
+        "/scripts-KHQW7IFV.js",
         "/styles-B3RCVKDT.css"
       ],
       "patterns": []
@@ -76,6 +76,7 @@
         "/assets/images/mstile-310x310.png",
         "/assets/images/mstile-70x70.png",
         "/assets/images/portfolio/Crop-Yield-Prediction.mp4",
+        "/assets/images/portfolio/Intelligent-Tomato-Grading-System.gif",
         "/assets/images/portfolio/Potato-Disease-Classification.mp4",
         "/assets/images/portfolio/Weed-Detection-System.mp4",
         "/assets/images/quote-img.webp",
@@ -96,7 +97,7 @@
     "/apple-touch-icon.png": "a49de1a04d600b935a83a758a286607921c19d07",
     "/assets/css/animate.min.css": "4ce4e9a3c083a51cc474b62f755108b9c81e5881",
     "/assets/css/font-awesome.min.css": "98887a688744ccd702846aa6b2e54dc3d9754876",
-    "/assets/data.min.js": "8b2377df5488cbb8c9101e53ee5b0dea60041e5a",
+    "/assets/data.min.js": "e13fdcdec131702aecea19199ea01c2ee0b3581e",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "7c13e5df4822e44cfe78f1291757ef7fc4af6d8a",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -138,6 +139,7 @@
     "/assets/images/mstile-310x310.png": "f6935f220b8cc6501b83b59a3ff0690a12272bba",
     "/assets/images/mstile-70x70.png": "f56323db96335294993d8f0b6f35dea347de02fe",
     "/assets/images/portfolio/Crop-Yield-Prediction.mp4": "9ae27cd905a93c2aee01f608b5a3852186f33eec",
+    "/assets/images/portfolio/Intelligent-Tomato-Grading-System.gif": "7b2ea2e634765c6e8df9803194f3b39285a9b78d",
     "/assets/images/portfolio/Potato-Disease-Classification.mp4": "a8d9ab2031fbd5f4e89a00a2800f951d48ec82e2",
     "/assets/images/portfolio/Weed-Detection-System.mp4": "db09d885c237d423633a95491759ca2e9f8cd690",
     "/assets/images/quote-img.webp": "e3ac9bb99a61bc33df5fda13317908a60b42c7dc",
@@ -153,10 +155,10 @@
     "/favicon-16x16.png": "46a78b38872dd6af7b4b5c90518eef6403f91759",
     "/favicon-32x32.png": "16a8f9f8737dda6b223e0d7e916b7b426e2ac63d",
     "/favicon.ico": "a7d6b6098b59b720e676a5d0d77d8c718810779f",
-    "/index.html": "e9df19c4e33bd875e4d730acd579eb2d95ce07ba",
+    "/index.html": "8f2f16943b475a6f04c5c26887d9c5568842a31d",
     "/main-RBPIJPWQ.js": "6b1e7240442a2e2547af9073eb89ebc8c94de0aa",
     "/polyfills-EONH2QZO.js": "e61db933651ae257d0c246b446cd1f470be08f78",
-    "/scripts-I7U3HYFQ.js": "6cd8c9cd84a4b98db371ce8b757433215c4864e4",
+    "/scripts-KHQW7IFV.js": "1f31d6393fdf8175fd80e20fb4100d1b3256271f",
     "/styles-B3RCVKDT.css": "1f8e2ceac0aaa353dde2f1829da32df76f16f67d"
   },
   "navigationUrls": [
