@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1786052635315,
+  "timestamp": 1786232378753,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -18,7 +18,7 @@
         "/index.html",
         "/main-DCX4MIO7.js",
         "/polyfills-EONH2QZO.js",
-        "/scripts-V3SQVQHM.js",
+        "/scripts-O4PX4NVU.js",
         "/styles-B3RCVKDT.css"
       ],
       "patterns": []
@@ -76,6 +76,7 @@
         "/assets/images/mstile-310x310.png",
         "/assets/images/mstile-70x70.png",
         "/assets/images/portfolio/Crop-Yield-Prediction.gif",
+        "/assets/images/portfolio/Echo-NDVI-Multispectral-Synthesis.gif",
         "/assets/images/portfolio/Intelligent-Tomato-Grading-System.gif",
         "/assets/images/portfolio/Potato-Disease-Classification.gif",
         "/assets/images/portfolio/Weed-Detection-System.gif",
@@ -98,7 +99,7 @@
     "/apple-touch-icon.png": "a49de1a04d600b935a83a758a286607921c19d07",
     "/assets/css/animate.min.css": "4ce4e9a3c083a51cc474b62f755108b9c81e5881",
     "/assets/css/font-awesome.min.css": "98887a688744ccd702846aa6b2e54dc3d9754876",
-    "/assets/data.min.js": "25203fe84965d870b2133e502484c98d3b13b7c9",
+    "/assets/data.min.js": "867339d21f4f6db2d3022028a2cb4b74ba83e429",
     "/assets/fonts/BlackOpsOne.eot": "a922adecfeba3ea43f4e644183728cdd1692dbb4",
     "/assets/fonts/BlackOpsOne.svg": "7c13e5df4822e44cfe78f1291757ef7fc4af6d8a",
     "/assets/fonts/BlackOpsOne.ttf": "024e07e45eefb57d4e55fffc082711c2d653e941",
@@ -140,6 +141,7 @@
     "/assets/images/mstile-310x310.png": "f6935f220b8cc6501b83b59a3ff0690a12272bba",
     "/assets/images/mstile-70x70.png": "f56323db96335294993d8f0b6f35dea347de02fe",
     "/assets/images/portfolio/Crop-Yield-Prediction.gif": "9b9eb587c787becfffcb7c7fe465b6299011d6f2",
+    "/assets/images/portfolio/Echo-NDVI-Multispectral-Synthesis.gif": "b84210832da5a3290eb310797457385da77df890",
     "/assets/images/portfolio/Intelligent-Tomato-Grading-System.gif": "7b2ea2e634765c6e8df9803194f3b39285a9b78d",
     "/assets/images/portfolio/Potato-Disease-Classification.gif": "95b26cf9fd09e25871dbdacb03d998f5940f7c2a",
     "/assets/images/portfolio/Weed-Detection-System.gif": "6711f2ec17daae99e0d4bfb20f30935f2bf457e2",
@@ -157,10 +159,10 @@
     "/favicon-16x16.png": "46a78b38872dd6af7b4b5c90518eef6403f91759",
     "/favicon-32x32.png": "16a8f9f8737dda6b223e0d7e916b7b426e2ac63d",
     "/favicon.ico": "a7d6b6098b59b720e676a5d0d77d8c718810779f",
-    "/index.html": "3c4328d55ab8c6d6c42a73ca99de4135c52b937b",
+    "/index.html": "36b0117eadc13e2568c1fe75e5068d33338b3097",
     "/main-DCX4MIO7.js": "79ae82c897c066404ce12a833c13f67c46a78daa",
     "/polyfills-EONH2QZO.js": "e61db933651ae257d0c246b446cd1f470be08f78",
-    "/scripts-V3SQVQHM.js": "ae9f9b5a255cd8d7be9de0e09c96bdb50e615f0a",
+    "/scripts-O4PX4NVU.js": "057e0499a3651284c37a5e7c92a79790c96bf79c",
     "/styles-B3RCVKDT.css": "1f8e2ceac0aaa353dde2f1829da32df76f16f67d"
   },
   "navigationUrls": [
