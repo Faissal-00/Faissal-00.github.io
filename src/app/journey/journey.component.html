@@ -1,0 +1,30 @@
+<section class="section" id="journey">
+    <div class="container-fluid z-1">
+        
+        <!-- Section Title -->
+        <div class="row justify-content-center txt-bg txt-bg-journey">
+            <div class="col-lg-6">
+                <div class="wow fadeIn section-title text-center mb-4 pb-5">
+                    <div class="mb-5 pb-3">
+                        <i class="fas fa-camera h1 text-muted"></i>
+                    </div>
+                    <h2 class="h3 font-weight-bold">My Journey</h2>
+                    <p class="text-muted mx-auto mb-0 mt-4 para-desc">Moments, events, and everyday life.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Continuous Marquee Row -->
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <!-- Duplicated group to ensure infinite looping illusion -->
+                <div class="marquee-group" *ngFor="let i of [1, 2]">
+                    <div class="marquee-card" *ngFor="let pic of photos">
+                        <img [src]="'assets/images/gallery/' + pic" class="journey-img" alt="Journey Moment" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

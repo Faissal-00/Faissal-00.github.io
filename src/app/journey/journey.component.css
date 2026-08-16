@@ -1,0 +1,74 @@
+#journey {
+    scroll-margin-top: 90px;
+}
+
+.txt-bg-journey::before {
+    content: "Journey";
+    white-space: nowrap;
+}
+
+.marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    gap: 2px;
+}
+
+.marquee-group {
+    display: flex;
+    gap: 2px;
+    flex-shrink: 0;
+    justify-content: space-around;
+    min-width: 100%;
+    animation: scrollInfinite 80s linear infinite;
+}
+
+/* Pause when hovering so you can look at any photo */
+.marquee-track:hover .marquee-group {
+    animation-play-state: paused;
+}
+
+.marquee-card {
+    height: 250px; /* Uniform height keeps the row neat */
+    flex-shrink: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #161b22;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.journey-img {
+    height: 100%;
+    width: auto; /* Keeps original aspect ratio—no cropping, heads never cut off! */
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.journey-img:hover {
+    transform: scale(1.05);
+}
+
+@keyframes scrollInfinite {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .txt-bg-journey::before {
+        font-size: 37px;
+    }
+    .marquee-card {
+        height: 180px;
+    }
+}
