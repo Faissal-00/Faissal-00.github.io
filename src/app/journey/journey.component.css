@@ -18,16 +18,22 @@
 .marquee-track {
     display: flex;
     width: max-content;
-    gap: 2px;
+    /* THE FIX: Animate the entire track instead of the groups */
+    animation: scrollInfinite 40s linear infinite; 
+}
+
+/* Pause the scroll when you hover */
+.marquee-track:hover {
+    animation-play-state: paused;
 }
 
 .marquee-group {
     display: flex;
-    gap: 2px;
+    gap: 15px; /* Your nice tight spacing */
+    padding-right: 15px; /* THIS seamlessly connects the end of Group 1 to the start of Group 2 */
     flex-shrink: 0;
-    justify-content: space-around;
-    min-width: 100%;
-    animation: scrollInfinite 80s linear infinite;
+    justify-content: flex-start;
+    /* (Animation is removed from here) */
 }
 
 /* Pause when hovering so you can look at any photo */
@@ -60,8 +66,13 @@
 }
 
 @keyframes scrollInfinite {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
+    0% { 
+        transform: translateX(0); 
+    }
+    100% { 
+        /* Shifts exactly 50% of the total track (which is exactly one full group of photos) */
+        transform: translateX(-50%); 
+    }
 }
 
 @media (min-width: 200px) and (max-width: 768px) {
